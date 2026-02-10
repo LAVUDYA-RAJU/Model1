@@ -1,0 +1,103 @@
+/* MAIN WRAPPER */
+.dashboard {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+/* NAVBAR SECTION */
+.dashboard__navbar {
+  width: 100%;
+  background-color: black;
+}
+
+/* NAV SEARCH AREA */
+.navSearch {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navSearch__input {
+  width: 200px;
+  padding: 6px;
+}
+
+.navSearch__button {
+  padding: 6px 15px;
+}
+
+/* TEMPLATE SECTION */
+.templateSection {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: aquamarine;
+  min-height: 400px;
+}
+
+.templateSection h3 {
+  color: blueviolet;
+}
+
+/* SEARCH BOX */
+.templateSearch {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.templateSearch__input {
+  width: 400px;
+  max-width: 90%;
+  padding: 10px;
+}
+
+.templateSearch__button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.MianAboutBgi {
+  width: 100%;
+  height: 300px;
+  background-image: url("./Assets/aboutBgi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;             /* optional: center content inside */
+  justify-content: center;
+  align-items: center;
+}
+.MianAboutBgiClild1 {
+  height: 50%;
+  width: 50%;
+  background-color: #FF892F;
+
+  display: flex;             /* optional: center content inside */
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .templateSearch {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .templateSearch__input {
+    width: 90%;
+  }
+
+  .navSearch {
+    flex-direction: column;
+  }
+
+  .navSearch__input {
+    width: 90%;
+  }
+}
