@@ -54,10 +54,16 @@ const Dashboard = () => {
   };
 
   return (
-    <div style={{ width: "70%", margin: "auto", marginTop: "40px" }}>
+    <>
+ <div style={{ width: "70%", margin: "auto", marginTop: "40px" }}>
       <h2 style={{ textAlign: "center" }}>Dashboard</h2>
       <Bar data={data} options={options} />
     </div>
+    <div>
+      <h1>Hello</h1>
+    </div>
+    </>
+   
   );
 };
 
