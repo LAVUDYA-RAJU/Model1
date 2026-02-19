@@ -9,6 +9,7 @@ const About = () => {
         <h3>ukygfukyfkjhgvjhvj</h3>
         <p>hi hello world</p>
         <p>second change</p>
+        <p>hello</p>
 
         <img src={a1} alt="about" />
       </div>
