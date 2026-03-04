@@ -51,6 +51,7 @@ const Home = () => {
             >
               Search
             </button>
+            <p>04-03-2026</p>
           </div>
         </div>
 
