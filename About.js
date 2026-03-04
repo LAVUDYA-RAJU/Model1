@@ -10,6 +10,7 @@ const About = () => {
         <p>hi hello world</p>
         <p>second change</p>
         <p>hello</p>
+        <p>ToDay Change</p>
 
         <img src={a1} alt="about" />
       </div>
